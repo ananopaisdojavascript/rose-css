@@ -1,3 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Courgette&family=Fira+Sans:wght@100;200;300;400&family=Great+Vibes&family=Lato:wght@100;400&family=Lora:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@100;200;300;400&family=Nanum+Gothic&family=Noto+Sans+JP:wght@100;300;400&family=Nunito:wght@200;300;400&family=Open+Sans:wght@300;400;600&family=Orelega+One&family=PT+Sans&family=Pacifico&family=Petit+Formal+Script&family=Playfair+Display:wght@400;500&family=Poppins:wght@100;200;300;400;500&family=Quicksand:wght@300;400&family=Raleway:wght@100;200;300;400&family=Roboto+Slab:wght@100;200;300;400&family=Roboto:wght@100;400&family=Rochester&family=Sacramento&family=Source+Sans+Pro:wght@200;300;400&family=Work+Sans:wght@100;200;300;400&display=swap");
+.rose__font--allura {
+  font-family: "Allura";
+}
+
+.rose__font--courgette {
+  font-family: "Courgette";
+}
+
+.rose__font--fira {
+  font-family: "Fira Sans";
+}
+
+.rose__font--great-vibes {
+  font-family: "Great Vibes";
+}
+
+.rose__font--lato {
+  font-family: "Lato";
+}
+
+.rose__font--lora {
+  font-family: "Lora";
+}
+
+.rose__font--montserrat {
+  font-family: "Montserrat";
+}
+
+.rose__font--nanum {
+  font-family: "Nanum Gothic";
+}
+
+.rose__font--noto-sans {
+  font-family: "Noto Sans JP";
+}
+
+.rose__font--nunito {
+  font-family: "Nunito";
+}
+
+.rose__font--open-sans {
+  font-family: "Open Sans";
+}
+
+.rose__font--orlega-one {
+  font-family: "Orelega One";
+}
+
+.rose__font--pacifico {
+  font-family: "Pacifico";
+}
+
+.rose__font--petit-formal {
+  font-family: "Petit Formal Script";
+}
+
+.rose__font--playfair-display {
+  font-family: "Playfair Display";
+}
+
+.rose__font--poppins {
+  font-family: "Poppins";
+}
+
+.rose__font--pt-sans {
+  font-family: "PT Sans";
+}
+
+.rose__font--quicksand {
+  font-family: "Quicksand";
+}
+
+.rose__font--raleway {
+  font-family: "Raleway";
+}
+
+.rose__font--roboto {
+  font-family: "Roboto";
+}
+
+.rose__font--roboto-slab {
+  font-family: "Roboto Slab";
+}
+
+.rose__font--serif {
+  font-family: rochester;
+}
+
+.rose__font--sacramento {
+  font-family: "Sacramento";
+}
+
+.rose__font--source-sans {
+  font-family: "Source Sans Pro";
+}
+
+.rose__font--work-sans {
+  font-family: "Work Sans";
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -50,6 +151,98 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.rose__text-size--1 {
+  font-size: 1rem;
+}
+
+.rose__text-size--2 {
+  font-size: 2rem;
+}
+
+.rose__text-size--3 {
+  font-size: 3rem;
+}
+
+.rose__text-size--4 {
+  font-size: 4rem;
+}
+
+.rose__text-size--5 {
+  font-size: 5rem;
+}
+
+.rose__text-size--6 {
+  font-size: 6rem;
+}
+
+.rose__border-radius--size1 {
+  border-radius: 5px;
+}
+
+.rose__border-radius--size2 {
+  border-radius: 10px;
+}
+
+.rose__border-radius--size3 {
+  border-radius: 15px;
+}
+
+.rose__border-radius--size4 {
+  border-radius: 20px;
+}
+
+.rose__margin-size--1 {
+  margin: 1rem;
+}
+
+.rose__margin-size--2 {
+  margin: 2rem;
+}
+
+.rose__margin-size--3 {
+  margin: 3rem;
+}
+
+.rose__margin-size--4 {
+  margin: 4rem;
+}
+
+.rose__margin-size--5 {
+  margin: 5rem;
+}
+
+.rose__margin-size--6 {
+  margin: 6rem;
+}
+
+.rose__padding-size--1 {
+  padding: 1rem;
+}
+
+.rose__padding-size--2 {
+  padding: 2rem;
+}
+
+.rose__padding-size--3 {
+  padding: 3rem;
+}
+
+.rose__padding-size--4 {
+  padding: 4rem;
+}
+
+.rose__padding-size--5 {
+  padding: 5rem;
+}
+
+.rose__padding-size--6 {
+  padding: 6rem;
+}
+
+.rose__box {
+  width: 31.25em;
 }
 
 /*# sourceMappingURL=style.css.map */
