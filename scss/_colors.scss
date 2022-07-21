@@ -1,4 +1,10 @@
-$colors: ();
+$colors: (
+ "turquoise": #1abc9c,
+ "alizarin": #e74c3c,
+ "orange": #f39c12,
+ "pink-glamour": #ff7675,
+ "white": #ffffff
+);
 
 @each $color, $i in $colors {
   .rose__color--#{$color} {

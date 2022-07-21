@@ -1,4 +1,184 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Courgette&family=Fira+Sans:wght@100;200;300;400&family=Great+Vibes&family=Lato:wght@100;400&family=Lora:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@100;200;300;400&family=Nanum+Gothic&family=Noto+Sans+JP:wght@100;300;400&family=Nunito:wght@200;300;400&family=Open+Sans:wght@300;400;600&family=Orelega+One&family=PT+Sans&family=Pacifico&family=Petit+Formal+Script&family=Playfair+Display:wght@400;500&family=Poppins:wght@100;200;300;400;500&family=Quicksand:wght@300;400&family=Raleway:wght@100;200;300;400&family=Roboto+Slab:wght@100;200;300;400&family=Roboto:wght@100;400&family=Rochester&family=Sacramento&family=Source+Sans+Pro:wght@200;300;400&family=Work+Sans:wght@100;200;300;400&display=swap");
+.rose__color--turquoise {
+  color: #1abc9c;
+}
+
+.rose__color--alizarin {
+  color: #e74c3c;
+}
+
+.rose__color--orange {
+  color: #f39c12;
+}
+
+.rose__color--pink-glamour {
+  color: #ff7675;
+}
+
+.rose__color--white {
+  color: #ffffff;
+}
+
+.rose__color--turquoise-hover:hover {
+  color: #1abc9c;
+  cursor: pointer;
+}
+
+.rose__color--alizarin-hover:hover {
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+.rose__color--orange-hover:hover {
+  color: #f39c12;
+  cursor: pointer;
+}
+
+.rose__color--pink-glamour-hover:hover {
+  color: #ff7675;
+  cursor: pointer;
+}
+
+.rose__color--white-hover:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rose__background-color--turquoise {
+  background: #1abc9c;
+}
+
+.rose__background-color--alizarin {
+  background: #e74c3c;
+}
+
+.rose__background-color--orange {
+  background: #f39c12;
+}
+
+.rose__background-color--pink-glamour {
+  background: #ff7675;
+}
+
+.rose__background-color--white {
+  background: #ffffff;
+}
+
+.rose__background-color--turquoise-hover:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+}
+
+.rose__background-color--alizarin-hover:hover {
+  background-color: #e74c3c;
+  cursor: pointer;
+}
+
+.rose__background-color--orange-hover:hover {
+  background-color: #f39c12;
+  cursor: pointer;
+}
+
+.rose__background-color--pink-glamour-hover:hover {
+  background-color: #ff7675;
+  cursor: pointer;
+}
+
+.rose__background-color--white-hover:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.rose__border--turquoise {
+  border: 1.5px solid #1abc9c;
+}
+
+.rose__border--alizarin {
+  border: 1.5px solid #e74c3c;
+}
+
+.rose__border--orange {
+  border: 1.5px solid #f39c12;
+}
+
+.rose__border--pink-glamour {
+  border: 1.5px solid #ff7675;
+}
+
+.rose__border--white {
+  border: 1.5px solid #ffffff;
+}
+
+.rose__border--turquoise-hover:hover {
+  border: 1.5px solid #1abc9c;
+  cursor: pointer;
+}
+
+.rose__border--alizarin-hover:hover {
+  border: 1.5px solid #e74c3c;
+  cursor: pointer;
+}
+
+.rose__border--orange-hover:hover {
+  border: 1.5px solid #f39c12;
+  cursor: pointer;
+}
+
+.rose__border--pink-glamour-hover:hover {
+  border: 1.5px solid #ff7675;
+  cursor: pointer;
+}
+
+.rose__border--white-hover:hover {
+  border: 1.5px solid #ffffff;
+  cursor: pointer;
+}
+
+.rose__border-bottom--turquoise {
+  border-top: 1.5px solid #1abc9c;
+}
+
+.rose__border-bottom--alizarin {
+  border-top: 1.5px solid #e74c3c;
+}
+
+.rose__border-bottom--orange {
+  border-top: 1.5px solid #f39c12;
+}
+
+.rose__border-bottom--pink-glamour {
+  border-top: 1.5px solid #ff7675;
+}
+
+.rose__border-bottom--white {
+  border-top: 1.5px solid #ffffff;
+}
+
+.rose__border-bottom--turquoise-hover:hover {
+  border-top: 1.5px solid #1abc9c;
+  cursor: pointer;
+}
+
+.rose__border-bottom--alizarin-hover:hover {
+  border-top: 1.5px solid #e74c3c;
+  cursor: pointer;
+}
+
+.rose__border-bottom--orange-hover:hover {
+  border-top: 1.5px solid #f39c12;
+  cursor: pointer;
+}
+
+.rose__border-bottom--pink-glamour-hover:hover {
+  border-top: 1.5px solid #ff7675;
+  cursor: pointer;
+}
+
+.rose__border-bottom--white-hover:hover {
+  border-top: 1.5px solid #ffffff;
+  cursor: pointer;
+}
+
 .rose__font--allura {
   font-family: "Allura";
 }
@@ -178,19 +358,43 @@ table {
 }
 
 .rose__border-radius--size1 {
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 
 .rose__border-radius--size2 {
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .rose__border-radius--size3 {
-  border-radius: 15px;
+  border-radius: 1rem;
 }
 
 .rose__border-radius--size4 {
-  border-radius: 20px;
+  border-radius: 1.25rem;
+}
+
+.rose__font-size--1 {
+  font-size: 1rem;
+}
+
+.rose__font-size--2 {
+  font-size: 2rem;
+}
+
+.rose__font-size--3 {
+  font-size: 3rem;
+}
+
+.rose__font-size--4 {
+  font-size: 4rem;
+}
+
+.rose__font-size--5 {
+  font-size: 5rem;
+}
+
+.rose__font-size--6 {
+  font-size: 6rem;
 }
 
 .rose__margin-size--1 {
@@ -243,6 +447,49 @@ table {
 
 .rose__box {
   width: 31.25em;
+}
+
+@media (min-width: 48em) {
+  .rose__row {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.rose__col {
+  margin: 0.6rem;
+  padding: 0.6rem;
+  flex: 1;
+}
+
+.rose__col--2 {
+  margin: 0.6rem;
+  padding: 0.6rem;
+  flex: 2;
+}
+
+.rose__col--10 {
+  margin: 0.6rem;
+  padding: 0.6rem;
+  flex: 10;
+}
+
+.rose__col--3 {
+  margin: 0.6rem;
+  padding: 0.6rem;
+  flex: 10;
+}
+
+.rose__col--4 {
+  flex: 4;
+  margin: 0.6rem;
+  padding: 0.6rem;
+}
+
+.rose__col--8 {
+  flex: 8;
+  margin: 0.6rem;
+  padding: 0.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

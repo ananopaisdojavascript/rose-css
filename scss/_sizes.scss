@@ -9,15 +9,21 @@
 }
 
 $border-radius-sizes: (
-  size1: 5px,
-  size2: 10px,
-  size3: 15px,
-  size4: 20px,
+  size1: 0.3125rem,
+  size2: 0.625rem,
+  size3: 1rem,
+  size4: 1.25rem,
 );
 
 @each $size, $i in $border-radius-sizes {
   .rose__border-radius--#{$size} {
     border-radius: $i;
+  }
+}
+
+@for $i from 1 through 6 {
+  .rose__font-size--#{$i} {
+    font-size: 1rem * $i;
   }
 }
 
